@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.apks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.step-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.step-card:hover {
+    background-color: #f0f0f0;
+}
+
+.step-card i {
+    font-size: 24px;
+    color: #4285f4;
+    width: 30px;
+    text-align: center;
+}
+
+/* Цвета для первых семи иконок */
+.step-card:nth-child(1) i { color: #4285f4; }
+.step-card:nth-child(2) i { color: #fbbc05; }
+.step-card:nth-child(3) i { color: #34a853; }
+.step-card:nth-child(4) i { color: #4285f4; }
+.step-card:nth-child(5) i { color: #db4437; }
+.step-card:nth-child(6) i { color: #4285f4; }
+.step-card:nth-child(7) i { color: #34a853; }
+
+/* Цвета для иконок APK */
+.apks .step-card:nth-child(1) i { color: #fbbc05; }
+.apks .step-card:nth-child(2) i { color: #db4437; }
+
+.step-card h2 {
+    font-size: 16px;
+    color: #1a73e8;
+    margin-bottom: 5px;
+}
+
+.step-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.safe-clean {
+    color: #777;
+    font-size: 12px;
+}
