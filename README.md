@@ -1,2 +1,2 @@
 # FRP
-Free FRP Bypass WebSite
+Пока что сайт в разработке, но уже работает! https://parad1st.github.io/FRP/
